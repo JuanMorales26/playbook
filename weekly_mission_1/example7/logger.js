@@ -2,7 +2,7 @@
   Este modulo se comporta como si fuera un objeto que contiene todo lo definido
 
   [Module: null prototype] {
-    DEFAULT_LEVEL: 'info',
+    DEFAULT_LEVEL: 'info_ass',
     LEVELS: { error: 0, debug: 1, warn: 2, data: 3, info: 4, verbose: 5 },
     Logger: [class Logger],
     log: [Function: log]
