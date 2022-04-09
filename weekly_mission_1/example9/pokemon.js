@@ -11,3 +11,5 @@ class Pokemon {
     console.log(`Mi Pokemon [${this.name}] dice: ${message}`)
   }
 }
+
+module.exports = Pokemon
