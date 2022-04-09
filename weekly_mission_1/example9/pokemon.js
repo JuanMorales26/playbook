@@ -1,6 +1,6 @@
-export default class pokemon {
-  constructor (name) {
-    this.name = name
+class Pokemon {
+  constructor(name) {
+    this.name = name 
   }
   
   sayHello () {
@@ -10,3 +10,4 @@ export default class pokemon {
   sayMessage (message) {
     console.log(`Mi Pokemon [${this.name}] dice: ${message}`)
   }
+}
