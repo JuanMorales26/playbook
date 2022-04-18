@@ -18,5 +18,5 @@ const myPR1 = new PullRequest("LaunchX", "Mi Primer PR", 100)
 console.log(myPR1.getInfo())
 
 // Puedes instanciar n cantidad de objetos de la misma clase
-const myPR2 = new PullRequest("LaunchX", "Mi segundo PR", 99)
+const myPR2 = new PullRequest("NODEJS", "Mi segundo PR", 90)
 console.log(myPR2.getInfo())
