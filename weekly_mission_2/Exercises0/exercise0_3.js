@@ -1,14 +1,19 @@
-// Ejercicio 3: Instanciar un objeto con atributos
-class Soldier {
-  // El constructor nos permite instanciar un objeto y asignarle atributos, this nos ayuda a realizar esto.
-  constructor(name, age, weapons){
-    this.name = name
-    this.age = age
-    this.weapons = weapons
-	}
+// Ejemplo 3: Objeto con diferentes propiedades
+const myObject3 = {
+  name: "Tulio",
+  age: 2,
+  nicknames: [
+   "Tulipan",
+    "Tulancingo",
+    "Tulish"
+  ],
+  address: {
+    zip_code: "10000",
+    street: "Dr. Vertiz 11 Benito Juarez",
+    city: "CDMX"
+  }
 }
-
-// Crear un objeto de la clase Soldier (esto se le llama instanciación)
-const privateJhon = new Soldier("Jhon", 26, ["MachineGun", "Rocket Launcher","Grenade","Knife"])
-console.log("Ejercicio 3: Instanciar un objeto con atributos")
-console.log(privateJhon)
+console.log("Ejemplo 3: Objeto con diferentes propiedades")
+console.log(myObject3)
+console.log(myObject3.name)
+console.log(myObject3["address"])
